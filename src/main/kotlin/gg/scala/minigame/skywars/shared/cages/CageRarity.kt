@@ -1,0 +1,12 @@
+package gg.scala.minigame.skywars.shared.cages
+
+import net.evilblock.cubed.util.CC
+
+enum class CageRarity(
+    val fancy: String
+)
+{
+    Common("${CC.WHITE}Common"),
+    Rare("${CC.AQUA}Rare"),
+    Legendary("${CC.GOLD}Legendary")
+}
